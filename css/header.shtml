@@ -1,0 +1,12 @@
+<header>
+    <img src="./images/MEbase175.png" alt="Area 28 Outline" />
+    <div class="header_hotline">
+      <p>Want Help?<br/>
+        24-Hour Hotline<br/>
+        (207) 479-1779<br/>
+        <a>
+          <img src="./images/ext_link.gif" alt="Hot Line"/></a>&nbsp;<a href="http://www.aa.org/lang/en/subpage.cfm?page=71" target="_blank">Is A.A. For You?</a>
+      </p>
+    </div>
+    <h1>Welcome to<br/>Area 28 General Service<br /><span class="heading">Maine & New Brunswick<br/><span style="font-size: x-small">(not area 51)</span></span></h1>
+  </header>

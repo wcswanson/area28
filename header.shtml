@@ -1,0 +1,86 @@
+<div class="container">
+    <!-- Beginning of the menu rectangle remove navbar-light -->
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand text-light" href="https://www.jquery-az.com/">Area 28</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#demo-navbar" aria-controls="demo-navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="demo-navbar">
+        <!-- Beginning of the unsorted list of menu items -->
+        <ul class="navbar-nav mr-auto">
+          <!-- Menu item consists of the <a> tag -->            
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Events & Announcements
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Calender</a>
+              <a class="dropdown-item" href="#">Events</a>
+              <a class="dropdown-item" href="#">Annoucements</a>
+              <a class="dropdown-item" href="#">Boomerang</a>
+              <a class="dropdown-item" href="#">Minutes</a>
+              <a class="dropdown-item" href="#">Workbooks</a>
+              <a class="dropdown-item" href="#">Districts</a>                
+            </div>
+          </li>
+          <!-- Beginning of the drop down menu item -->
+          <!-- The difference between a menu item and the drop down is the class. "nav-item" & "nav-item dropdown" -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Trusted Servants
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="Contacts.html">Alternate Delegate</a>
+              <a class="dropdown-item" href="Financials.html">Area Chair</a>
+              <a class="dropdown-item" href="Minutes.html">Alternate Area Chair</a>
+              <a class="dropdown-item" href="District-Information.html">Area Treasurer</a>
+              <a class="dropdown-item" href="District-Information.html">Alternate Area Treasurer</a>
+              <a class="dropdown-item" href="District-Information.html">Registrar</a>
+              <a class="dropdown-item" href="District-Information.html">Web Master</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Service Committees
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="BusinessMeetings.html">Accessibility/Remote Comunities Committee</a>
+              <a class="dropdown-item" href="Contacts.html">Archives Committee</a>
+              <a class="dropdown-item" href="Financials.html">Boomerang Committee</a>
+              <a class="dropdown-item" href="Minutes.html">Bridging the Gap (BTG) Committee</a>
+              <a class="dropdown-item" href="District-Information.html">Correctional Facilities Committee</a>
+              <a class="dropdown-item" href="District-Information.html">Cooperation with the Professional Community (CPC) Committe</a>
+              <a class="dropdown-item" href="District-Information.html">Finance Committee</a>
+              <a class="dropdown-item" href="District-Information.html">Grapevine Committee</a>
+              <a class="dropdown-item" href="District-Information.html">Literature Committee</a>
+              <a class="dropdown-item" href="District-Information.html">Love and Service Committee</a>
+              <a class="dropdown-item" href="District-Information.html">Public Information Committee (PI)</a>
+              <a class="dropdown-item" href="District-Information.html">Round-Up Committee</a>
+              <a class="dropdown-item" href="District-Information.html">Treatment Facilities Committee</a>
+              <a class="dropdown-item" href="District-Information.html">Website Committee</a>
+              <a class="dropdown-item" href="District-Information.html">Guidelines Committee</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Other Resources
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="Related-Websites.html">Related Websites</a>
+              <a class="dropdown-item" href="Resources.html">Other Helpful Resources</a>
+            </div>
+          </li>
+          <li>
+            <a class="nav-item nav-link" href="#">About</a>
+          </li>
+          <li>
+            <a class="nav-item nav-link" href="#">Privacy</a>
+          </li>
+          <!-- End of the drop down menu item -->
+        </ul>
+        <!-- End of the unsorted list of menu items -->
+        <!-- Beginning of the input boxes -->
+      </div>
+      <!-- End of the menu rectangle -->
+    </nav>
+  </div>

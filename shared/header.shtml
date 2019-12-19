@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href=".bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <title>Area 28 prototype</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- Load this stlyesheet last -->
+    <link rel="stylesheet" href="../_css/style.css"/>
+    <link rel="icon" href="images/favicon.png"/>
+
+  </head>
+  <body>  
+    <header>
+    <img src="../images/MEbase175.png" alt="Area 28 Outline" />
+    <div class="header_hotline">
+      <p>Want Help?<br/>
+        24-Hour Hotline<br/>
+        1-800-737-6237 or<br/>
+        1-207-774-4335<br/>
+        <a>
+          <img src="../images/ext_link.gif" alt="Hot Line"/></a>&nbsp;<a href="http://www.aa.org/lang/en/subpage.cfm?page=71" target="_blank">Is A.A. For You?</a>
+      </p>
+    </div>
+    <h1>Welcome to<br/>Area 28 General Service<br /><span class="heading">Maine & New Brunswick<br/><span style="font-size: x-small">(not area 51)</span></span></h1>
+  </header>
+  
+<div class="container">
+  <!-- Beginning of the menu rectangle remove navbar-light -->
+  <nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand text-light" href="../index.html">Area 28</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#demo-navbar" aria-controls="demo-navbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="demo-navbar">
+      <!-- Beginning of the unsorted list of menu items -->
+      <ul class="navbar-nav mr-auto">
+        <!-- Menu item consists of the <a> tag -->            
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Events & Announcements
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="../EventsAnnoucements/Calendar.html">Calendar</a>
+            <a class="dropdown-item" href="../EventsAnnoucements/Events.html">Events</a>
+            <a class="dropdown-item" href="../EventsAnnoucements/Annoucements.html">Annoucements</a>
+            <a class="dropdown-item" href="../EventsAnnoucements/Boomerang.html">Boomerang</a>
+            <a class="dropdown-item" href="../EventsAnnoucements/Minutes.html">Minutes</a>
+            <a class="dropdown-item" href="../EventsAnnoucements/Workbooks.html">Workbooks</a>
+            <a class="dropdown-item" href="../EventsAnnoucements/Workshops.html">Workshops</a>                            
+          </div>
+        </li>
+        <!-- Beginning of the drop down menu item -->
+        <!-- The difference between a menu item and the drop down is the class. "nav-item" & "nav-item dropdown" -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            About Area 28
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <!--
+            <a class="dropdown-item" href="../TrustedServants/Delegate.html">Delegate and Alternate</a>
+            <a class="dropdown-item" href="../TrustedServants/Chair.html">Chair</a>            
+            <a class="dropdown-item" href="../TrustedServants/Treasurer.html">Treasurer and Alternate</a>    Simp        
+            <a class="dropdown-item" href="../TrustedServants/Registrar.html">Registrar</a>
+            -->
+            <a class="dropdown-item" href="../About/Districts.html">Districts</a>
+            <a class="dropdown-item" href="../About/Glossary.html">Glossary -- Area 28</a>
+            <a class="dropdown-item" href="../About/TrustedServants.html">Trusted Servants Workbook</a>
+            <a class="dropdown-item" href="../About/Workbook.html">Complete A28 Workbook</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Service Committees
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="../ServiceCommittees/Accessibility.html">Accessibility / Remote Comunities Committee</a>
+            <a class="dropdown-item" href="../ServiceCommittees/Archives_Committee.html">Archives Committee</a>
+            <a class="dropdown-item" href="../ServiceCommittees/Boomerang_Committee.html">Boomerang Committee</a>
+            <a class="dropdown-item" href="../ServiceCommittees/BTG.html">Bridging the Gap (BTG) Committee</a>
+            <a class="dropdown-item" href="../ServiceCommittees/Correctional_Facilities_Committee.html">Correctional Facilities Committee</a>
+            <a class="dropdown-item" href="../ServiceCommittees/CPC.html">Cooperation with the Professional Community (CPC) Committe</a>
+            <a class="dropdown-item" href="../ServiceCommittees/Finance_Committee.html">Finance Committee</a>
+            <a class="dropdown-item" href="../ServiceCommittees/Grapevine_Committee.html">Grapevine Committee</a>
+            <a class="dropdown-item" href="../ServiceCommittees/GSR.html">General Service Representative (GSR)</a>
+            <a class="dropdown-item" href="../ServiceCommittees/Literature_Committee.html">Literature Committee</a>
+            <a class="dropdown-item" href="../ServiceCommittees/Love_and_Service_Committee.html">Love and Service Committee</a>
+            <a class="dropdown-item" href="../ServiceCommittees/PI.html">Public Information Committee (PI)</a>
+            <a class="dropdown-item" href="../ServiceCommittees/Round-Up_Committee.html">Round-Up Committee</a>
+            <a class="dropdown-item" href="../ServiceCommittees/Treatment_Facilities_Committee.html">Treatment Facilities Committee</a>
+            <a class="dropdown-item" href="../ServiceCommittees/Website_Committee.html">Website Committee</a>
+            <a class="dropdown-item" href="../ServiceCommittees/Guidelines_Committee.html">Guidelines Committee</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Other Resources
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="../OtherResources/Related_Websites.html">Related Websites</a>
+            <a class="dropdown-item" href="../OtherResources/Resources.html">Other Helpful Resources</a>
+            <a class="dropdown-item" href="../OtherResources/NewToAA.html">New To AA?</a>
+          </div>
+        </li>
+       <li>
+          <a class="nav-item nav-link" href="../About/About.html">About</a>
+        </li>
+        <li>
+          <a class="nav-item nav-link" href="#">Privacy</a>
+        </li>
+        <!-- End of the drop down menu item -->
+      </ul>
+      <!-- End of the unsorted list of menu items -->
+      <!-- Beginning of the input boxes -->
+    </div>
+    <!-- End of the menu rectangle -->
+  </nav>
+</div>
